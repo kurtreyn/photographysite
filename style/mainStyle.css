@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat";
+}
+
+/* ///////////////////// NAVBAR //////////////////////// */
+.navbar-style {
+  box-shadow: 0 4px 2px -2px #333;
+}
+
+.nav-logo {
+  width: 10%;
+}
+
+.nav-custom img {
+  width: 64px;
+}
+
+.icon-bar {
+  background: white;
+}
+
+/* ///////////////////// NAVBAR //////////////////////// */
+
+/* ///////////////////// MAIN AREA //////////////////////// */
+
+.slogan h1 {
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.background-img img {
+  width: 80%;
+}
