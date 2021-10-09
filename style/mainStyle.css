@@ -39,3 +39,17 @@
 .background-img img {
   width: 80%;
 }
+
+.button {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: black;
+}
+
+.gallery-row {
+  border: solid 1px white;
+}
+
+.gallery-image img {
+  width: 80%;
+}
