@@ -29,8 +29,7 @@
 /* ///////////////////// MAIN AREA //////////////////////// */
 
 .slogan h1 {
-  font-family: "Montserrat";
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.2rem;
   margin-top: 2rem;
   margin-left: 2rem;
@@ -46,10 +45,14 @@
   background-color: black;
 }
 
-.gallery-row {
-  border: solid 1px white;
+.blurb {
+  font-weight: 100;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
-.gallery-image img {
-  width: 100%;
+/* ///////////////////// FRONT GALLERY //////////////////////// */
+
+.gallery-container {
+  border: solid 1px white;
 }
