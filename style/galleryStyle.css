@@ -47,7 +47,7 @@
 
 .blurb {
   font-family: "League Script", cursive;
-  /* font-weight: 100; */
+  font-weight: 100;
   margin-top: 2rem;
   margin-left: 2rem;
 }
@@ -63,6 +63,13 @@
 .flex-column {
   justify-content: space-between; /* have images appear as a four sided block */
   max-width: 250px;
+}
+
+@media screen and (min-width: 1650px) {
+  .flex-column {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 img {
