@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   background-color: black;
+}
+
+body {
   color: white;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 /* ///////////////////// NAVBAR //////////////////////// */
@@ -46,7 +49,7 @@
 }
 
 .blurb {
-  font-family: "League Script", cursive;
+  font-family: 'League Script', cursive;
   font-weight: 100;
   margin-top: 2rem;
   margin-left: 2rem;
@@ -74,4 +77,27 @@
 
 img {
   margin: 5px;
+}
+
+/* ///////////////////// FOOTER //////////////////////// */
+
+.footer-container {
+  padding: 0.5rem;
+  border-top: 2px solid #333;
+  box-shadow: 2 4px 2px -2px #333;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.footer-icon img {
+  max-width: 4rem;
+}
+
+.footer-icon a {
+  text-decoration: none;
+  color: white;
 }

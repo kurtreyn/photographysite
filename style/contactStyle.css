@@ -50,56 +50,28 @@ body {
 
 .blurb {
   font-family: 'League Script', cursive;
-  /* font-weight: 100; */
+  font-weight: 100;
   margin-top: 2rem;
   margin-left: 2rem;
 }
 
-/* ///////////////////// FRONT GALLERY //////////////////////// */
+/* ///////////////////// CONTACT FORM //////////////////////// */
 
-.gallery-container {
-  display: flex;
-  justify-content: center;
-  border: solid 1px white;
+.custom-row {
+  padding: 2rem;
 }
 
-.flex-column {
-  justify-content: space-between; /* have images appear as a four sided block */
-  max-width: 250px;
+.custom-col {
+  padding: 2rem;
 }
 
-img {
-  margin: 5px;
+#message-area {
+  width: 25%;
+  margin-right: 0.5rem;
 }
 
-/* ///////////////////// PROMOTION SECTION //////////////////////// */
-
-#promotion {
-  padding: 7% 20%;
-}
-
-.promo-box {
-  text-align: center;
-  padding: 5%;
-}
-
-.promo-box p {
-  font-family: 'League Script', cursive;
-}
-
-.promo-box h3 {
-  color: white;
-  text-decoration: none;
-}
-
-.promo-box a {
-  color: white;
-  text-decoration: none;
-}
-
-.icon-custom {
-  font-size: 3rem;
-  color: rgb(157, 217, 236);
+.custom-button {
+  margin: 1rem;
 }
 
 /* ///////////////////// FOOTER //////////////////////// */
