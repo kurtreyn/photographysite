@@ -84,7 +84,7 @@ img {
 /* LIGHTBOX OVERLAY */
 #lighbox {
   display: block;
-  position: absolute;
+  position: fixed;
   /*  ^keeps lightbox window in the current viewport  */
   top: 0;
   left: 0;
@@ -93,6 +93,7 @@ img {
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
   z-index: 7;
+  border: solid 4px red;
 }
 
 /* LIGHTBOX CLOSE BUTTON */
