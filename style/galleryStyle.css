@@ -82,7 +82,7 @@ img {
 /* ---------------------- LIGHTBOX CONTROLS ---- */
 
 /* LIGHTBOX OVERLAY */
-#lighbox {
+#lightbox {
   display: block;
   position: fixed;
   /*  ^keeps lightbox window in the current viewport  */
@@ -92,8 +92,6 @@ img {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
-  z-index: 7;
-  border: solid 4px red;
 }
 
 /* LIGHTBOX CLOSE BUTTON */
@@ -112,6 +110,36 @@ img {
 /* BLUR BACKGROUND WHEN LIGHTBOX IS ACTIVE */
 .lightbox-active {
   filter: blur(5px);
+}
+
+/* ///////////////////// PROMOTION SECTION //////////////////////// */
+
+#promotion {
+  padding: 7% 20%;
+}
+
+.promo-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.promo-box p {
+  font-family: 'League Script', cursive;
+}
+
+.promo-box h3 {
+  color: white;
+  text-decoration: none;
+}
+
+.promo-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon-custom {
+  font-size: 3rem;
+  color: rgb(157, 217, 236);
 }
 
 /* ///////////////////// FOOTER //////////////////////// */
