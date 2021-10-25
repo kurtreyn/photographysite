@@ -79,37 +79,105 @@ img {
   margin: 5px;
 }
 
-/* ---------------------- LIGHTBOX CONTROLS ---- */
-
-/* LIGHTBOX OVERLAY */
+/* ///////////////////// LIGHTBOX SECTION //////////////////////// */
 #lightbox {
-  display: block;
   position: fixed;
   /*  ^keeps lightbox window in the current viewport  */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
   text-align: center;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* LIGHTBOX CLOSE BUTTON */
 #lightbox .closeBtn {
-  text-align: right;
-  /* margin-right: 20px; */
+  background: none;
+  border: none;
+  color: #fff;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  top: 0;
   font-size: 3rem;
+}
+
+.closeBtn {
+  cursor: pointer;
 }
 
 /* LIGHTBOX IMAGE */
 #lightbox img {
   box-shadow: 0 0 25px #111;
-  max-width: 500px;
+  max-width: 300px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#content img {
+  position: fixed;
+  top: 0;
+  margin-top: 4rem;
+  max-width: 30%;
 }
 
 /* BLUR BACKGROUND WHEN LIGHTBOX IS ACTIVE */
 .lightbox-active {
   filter: blur(5px);
+}
+
+/* LIGHTBOX ARROWS */
+.arrowBTN {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 25%;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+  margin: -1.5rem 0 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.prev {
+  left: 1rem;
+}
+.next {
+  right: 1rem;
+}
+
+#lightbox a {
+  text-decoration: none;
+  color: white;
+}
+
+#lightbox a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lightbox-hidden {
+  display: none;
+}
+
+@media screen and (min-width: 1650px) {
+  .flex-column {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+img {
+  margin: 5px;
 }
 
 /* ///////////////////// PROMOTION SECTION //////////////////////// */
