@@ -220,15 +220,10 @@ img {
 
 .footer-icon {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 3rem;
 }
 
 .footer-icon img {
   max-width: 4rem;
-}
-
-.footer-icon a {
-  text-decoration: none;
-  color: white;
 }
